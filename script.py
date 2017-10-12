@@ -1,5 +1,5 @@
 #-*- coding:utf-8 -*-
-# made by munsiwoo
+# made by SiwooMun
 import httplib, urllib
 
 conn = httplib.HTTPConnection('los.eagle-jump.org')
